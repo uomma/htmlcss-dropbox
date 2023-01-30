@@ -1,13 +1,13 @@
 * {
-   
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
-   
+
 }
 
 
@@ -15,16 +15,17 @@ body{
 
 /*  header  */
 
-header{
+header {
+    background-color: white;
     width: 100%;
     box-shadow: 0px 3px 2px -2px gray;
     position: fixed;
     top: 0px;
     left: 0px;
-    
+    z-index: 999;
 }
 
-header .row{
+header .row {
     height: 80px;
     justify-content: space-between;
     align-items: center;
@@ -35,43 +36,99 @@ header a {
     text-decoration: none;
 }
 
-.row{
+.row {
     display: flex;
 }
 
-.container{
+.container {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    
-   
 }
 
-.menu, .login{
-   height: 100%;
-
+.menu, .login {
+    height: 100%;
 }
 
 .list-inline {
-    
     display: flex;
     list-style: none;
     padding: 10px;
     align-items: center;
     height: 100%;
-    
+
 }
- .list-inline li {
+
+.list-inline li {
     padding: 0px 15px;
 }
 
-.login .list-inline li:last-child{
-    padding: 3px 8px ;
-    background-color:#0061ff;
+.login .list-inline li:last-child {
+    padding: 3px 8px;
+    background-color: #0061ff;
 }
 
-  nav li:not(.menu :first-child):hover {
+nav li:not(.menu :first-child):hover {
     border-bottom: 2px solid black;
 }
 
 /* TODO:mettere la linea al bottom div e non al testo */
+/*  header  */
+
+
+
+/* main */
+main {
+    margin-top: 80px;
+    position: relative;
+    z-index: 3;
+}
+
+.jumbo {
+    background-color: #b4d0e7;
+    height: 540px;
+    padding: 0px 400px;
+}
+
+#title {
+    font-size: 50px;
+    font-weight: 900;
+    padding-top: 50px;
+
+}
+
+.visual {
+    height: 300px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.box-left {
+    width: 350px;
+    font-size: 10px;
+}
+
+#free-trial {
+    width: 150px;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #0061ff;
+    color: white;
+
+}
+
+#proposta-cliente {
+    width: 700px;
+    background-image: url('../img/jumbo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#undo {
+    padding: 30px 0px 60px 0px;
+}
+
+#arrow {
+    font-size: 45px;
+
+}
