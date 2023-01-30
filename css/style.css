@@ -179,14 +179,18 @@ main {
 .products {
     flex-wrap: wrap;
     gap: 30px 20px;
-    padding: 40px 0px;
-    background-color: red;
-    height: 100px;
+    padding: 60px 0px;
+    
+   
 }
 
 .product {
     width: calc(100% / 3 - 20px);
     border: 1px solid black;
+    margin: auto;
+    height: 950px;
+    
+    
 }
 
 .who {
@@ -211,9 +215,11 @@ section li {
 
 .pt1, .pt2, .pt3 {
     list-style: none;
-    padding: 30px 0px 40px 0px;
+    padding: 30px 20px 40px 20px;
 
 }
+
+
 
 .opzione {
     font-size: 20px;
@@ -239,23 +245,21 @@ section li {
 }
 
 .buy-now{
-    padding: 20px 0px 20px 10px;
+    padding: 20px 0px 20px 20px;
     
 }
 
 .sali{
     font-size: 13px;
     font-weight: bold;
-    padding-left: 10px;
-
 }
 
-.highlights{
-    padding-left: 10px;
+hr{
+    color: black;
+    width: 50px;
+   margin-left: 20px;
 }
-
 .fa-check{
     color: #0061ff;
+    padding-right: 5px; 
 }
-
-
