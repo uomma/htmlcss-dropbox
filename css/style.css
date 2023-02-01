@@ -265,7 +265,7 @@ section li {
     font-weight: bold;
 }
 
-hr {
+.ep {
     color: black;
     width: 50px;
     margin-left: 20px;
@@ -523,3 +523,36 @@ hr {
 }
 
 /* sky */
+/* Q&A */
+
+.question {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-angle-down {
+    padding-right: 40px;
+}
+
+.qa {
+    width: auto;
+    margin: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Q&A */
