@@ -540,19 +540,46 @@ section li {
     margin: 50px 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Q&A */
+
+
+/* footer */
+/* footer */
+
+
+footer {
+    background-color: black;
+    color: white;
+
+}
+
+.Ftop {
+    justify-content: center;
+    padding: 10px 50px 30px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+
+.col-jr {
+    width: 15%;
+}
+
+.sopra {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 80px 0px 20px;
+}
+
+.sotto {
+    font-size: 13px;
+    padding-bottom: 120px;
+}
+
+.flop {
+    width: 50%;
+}
+
+.language {
+    padding-top: 30px;
+}
